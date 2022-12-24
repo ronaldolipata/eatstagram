@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+.pnp.cjs
+.pnp.loader.mjs
+.yarn
+.yarnrc.yml

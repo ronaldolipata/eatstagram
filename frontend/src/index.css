@@ -1,0 +1,4 @@
+body {
+  height: -webkit-fill-available;
+  height: 100vh;
+}

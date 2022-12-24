@@ -1,0 +1,82 @@
+.mainContainer {
+    max-width: 100vw;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    color: black;
+}
+
+.logo {
+    max-height: 10vh;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 950px) {
+    .bgImage {
+        height: 40vh;
+        width: 100vw;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 951px) {
+    .bgImage {
+        max-width: 100vw;
+        object-fit: fill;
+        overflow: hidden;
+    }
+}
+
+
+.blurb {
+    margin: 10px 0px 20px 0px;
+    color: black;
+    max-width: 80vw;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topHalf {
+    max-width: 100%;
+    min-width: 100vw;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topOfTop {
+    background-color: #D2F273;
+    width: 100%;
+}
+
+.bottomOfTop {
+    background-color: #40C7FE;
+    width: 100%;
+}
+
+.bottomHalf {
+    background-color: white;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    min-width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.headingContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
